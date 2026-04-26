@@ -191,8 +191,11 @@
                 <div class="relative glass-card aspect-[4/3] rounded-3xl flex items-center justify-center p-12 overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent"></div>
                     
-                    <!-- Foto real do produto atualizada com efeitos premium -->
-                    <img src="produto.jpg" alt="Tinta para Restauração de Couro Politons" class="h-full max-h-[400px] w-auto object-contain drop-shadow-[0_25px_35px_rgba(249,115,22,0.2)] relative z-10 transition-transform duration-700 hover:scale-105">
+                    <!-- Imagem atualizada apontando para o ficheiro 'produto.png' no seu GitHub usando CDN -->
+                    <img src="https://cdn.jsdelivr.net/gh/Usestilo/Polivox@main/produto.png" 
+                         onerror="this.onerror=null; this.src='produto.png';"
+                         alt="Tinta para Restauração de Couro Politons" 
+                         class="h-full max-h-[400px] w-auto object-contain drop-shadow-[0_25px_35px_rgba(249,115,22,0.2)] relative z-10 transition-transform duration-700 hover:scale-105">
                 </div>
             </div>
             <div class="w-full lg:w-1/2 reveal delay-200">
